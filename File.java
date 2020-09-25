@@ -21,7 +21,7 @@ else
 {
 emphrs=0;
 }
-empwage=emphrs * rate;
+empwage = emphrs * rate;
 System.out.println("Employee wage is "+empwage);
 }
 }
