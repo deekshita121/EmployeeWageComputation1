@@ -6,7 +6,7 @@ public static void main(String args[])
 {
 int emphrs=0;
 int empwage=0;
-double check=Math.floor(Math.random()*10 % 3);
+double check=Math.floor(Math.random()*10 % 2);
 System.out.println("Welcome to Employee Wage");
 if(check==present)
 {
