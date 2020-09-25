@@ -9,18 +9,15 @@ int emphrs=0;
 int empwage=0;
 double check=Math.floor(Math.random()*10 % 3);
 System.out.println("Welcome to Employee Wage");
-if(check==full_time)
-{
+switch(check)
+case full_time:
 emphrs=8;
-}
-else if(check==part_time)
-{
+break;
+case part_time:
 emphrs=4;
-}
-else
-{
+break;
+default:
 emphrs=0;
-}
 empwage = emphrs * rate;
 System.out.println("Employee wage is "+empwage);
 }
