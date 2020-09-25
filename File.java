@@ -7,7 +7,7 @@ public static void main(String args[])
 {
 int emphrs=0;
 int empwage=0;
-double check=Math.floor(Math.random()*10 % 2);
+double check=Math.floor(Math.random()*10 % 3);
 System.out.println("Welcome to Employee Wage");
 if(check==full_time)
 {
